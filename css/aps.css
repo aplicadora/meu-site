@@ -1,0 +1,42 @@
+/*Para dispositivos com width menor que 768px*/
+
+body {
+  padding-top: 1px;
+}
+
+/*Para dispositivos com width maior ou igual a 768px*/
+@media (min-width: 100px) {
+ body {
+     padding-top: 120px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+ body {
+     padding-top: 120px;
+     /*Para dispositivos com width maior ou igual a 992px*/
+  }
+}
+
+/* Navbar Cor 
+nav {
+	background-color: #3a50b3;
+}*/
+
+/* Navbar Cor */
+footer .footer-widget{
+    background-color: #363839;
+}
+
+footer .footer-fusion{
+    background-color: #282a2b;
+}
+
+.titulo{
+    font-size: 14px;
+}
+
+.descricao{
+    font-size: 13px;
+}
